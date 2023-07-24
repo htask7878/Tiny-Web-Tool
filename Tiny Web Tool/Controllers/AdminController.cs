@@ -13,7 +13,7 @@ namespace Tiny_Web_Tool.Controllers
             return View();
         }
 
-        public IActionResult Table()
+        public IActionResult Category_List()
         {
             return View();
         }
@@ -44,6 +44,16 @@ namespace Tiny_Web_Tool.Controllers
         }
 
         public IActionResult Lock_Screen() 
+        {
+            return View();
+        }
+
+        public IActionResult Main_Category()
+        {
+            return View();
+        }
+
+        public IActionResult Sub_Category()
         {
             return View();
         }
